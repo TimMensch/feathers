@@ -2,8 +2,6 @@ import * as express from 'express';
 import * as expressCore from "express-serve-static-core";
 import * as events from 'events';
 
-import * as hooks from "feathers-hooks-typescript-fix";
-
 declare function feathers(): feathers.Application;
 
 declare namespace feathers {
@@ -65,10 +63,6 @@ declare namespace feathers {
      * Initialize your service with any special configuration or if connecting services that are very tightly coupled
      */
     setup?(app?: Application, path?: string): void;
-
-    before(hooks: hooks.HookMap): Application;
-    after(hooks: hooks.HookMap): Application;
-    hooks(hooks: hooks.HooksObject): Application;
   }
 
   interface ServiceHandler<T> {
@@ -144,8 +138,6 @@ declare namespace feathers {
      * Runs a callback function with the application as the context (this). It can be used to initialize plugins or services.
      */
     configure(callback: any): this;
-
-    hooks(hooks: hooks.HooksObject): Application;
   }
 }
 
