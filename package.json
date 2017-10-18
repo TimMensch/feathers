@@ -1,7 +1,7 @@
 {
-  "name": "feathers",
+  "name": "feathers-typescript-fix",
   "description": "Build Better APIs, Faster than Ever.",
-  "version": "2.2.2",
+  "version": "2.2.2-ts-1",
   "homepage": "http://feathersjs.com",
   "repository": {
     "type": "git",
