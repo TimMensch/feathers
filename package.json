@@ -1,11 +1,11 @@
 {
   "name": "@timmensch/feathers",
   "description": "Build Better APIs, Faster than Ever.",
-  "version": "2.2.2",
+  "version": "2.2.2-ts-1",
   "homepage": "http://feathersjs.com",
   "repository": {
     "type": "git",
-    "url": "git://github.com/feathersjs/feathers.git"
+    "url": "git://github.com/TimMensch/feathers.git"
   },
   "keywords": [
     "feathers",
@@ -21,7 +21,8 @@
   "author": "Feathers <hello@feathersjs.com> (http://feathersjs.com)",
   "contributors": [
     "Eric Kryski <e.kryski@gmail.com> (http://erickryski.com)",
-    "David Luecke <daff@neyeon.de> (http://neyeon.com)"
+    "David Luecke <daff@neyeon.de> (http://neyeon.com)",
+    "Tim Mensch <tim-f-gh@bitgems.com>"
   ],
   "license": "MIT",
   "bugs": {
