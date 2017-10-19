@@ -5,7 +5,7 @@
   "homepage": "http://feathersjs.com",
   "repository": {
     "type": "git",
-    "url": "git://github.com/feathersjs/feathers.git"
+    "url": "git://github.com/TimMensch/feathers.git"
   },
   "keywords": [
     "feathers",
@@ -21,7 +21,8 @@
   "author": "Feathers <hello@feathersjs.com> (http://feathersjs.com)",
   "contributors": [
     "Eric Kryski <e.kryski@gmail.com> (http://erickryski.com)",
-    "David Luecke <daff@neyeon.de> (http://neyeon.com)"
+    "David Luecke <daff@neyeon.de> (http://neyeon.com)",
+    "Tim Mensch <tim-f-gh@bitgems.com>"
   ],
   "license": "MIT",
   "bugs": {
